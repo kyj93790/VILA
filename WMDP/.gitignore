@@ -1,0 +1,10 @@
+.cache/
+**/__pycache__/
+files/
+files/data/polite_refusal_responses
+src/exec/print_results.py
+src/exec/print_results_all.py
+auto_unlearn_all.py
+auto_unlearn.py
+requirements.txt # use pip_requirements.txt instead
+environment.yml
