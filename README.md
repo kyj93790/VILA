@@ -16,3 +16,13 @@ This repository provides the official PyTorch implementation of the following pa
 - 💡 We refine the Fisher information extraction process to account for **the distributional mismatch** between the forget set and the full data distribution
 - 💡 We improve computational efficiency by **performing Fisher information extraction within the LoRA subspace**.
 
+## Cite
+```
+@inproceedings{
+kim2025improving,
+title={Improving Fisher Information Estimation and Efficiency for LoRA-based LLM Unlearning},
+author={Yejin Kim and Eunwon Kim and Buru Chang and Junsuk Choe},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+}
+```
