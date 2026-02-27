@@ -1,4 +1,4 @@
-# Improving Fisher Information Estimation and Efficiency for LoRA-based LLM Unlearning
+# [COLM 2025] Improving Fisher Information Estimation and Efficiency for LoRA-based LLM Unlearning
 
 This repository provides the official PyTorch implementation of the following paper:
 > [**Improving Fisher Information Estimation and Efficiency for LoRA-based LLM Unlearning**](https://arxiv.org/abs/2508.21300) <br>
