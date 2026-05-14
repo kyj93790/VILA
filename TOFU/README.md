@@ -92,12 +92,14 @@ beta=${beta}
 ```
 
 ## 5. Evaluate models
+> For base_model_path, please provide the parent directory path where W - B*A* is saved, and for model_path, provide the adapter path. For more details, please refer to this [issue](https://github.com/kyj93790/VILA/issues/1).
 ```
 CUDA_VISIBLE_DEVICES=0 torchrun \
 --nproc_per_node=1 \
 --master_port=$master_port \
 evaluate_util.py \
 model_family=$model_family split=$split \
+base_model_path=$base_model_path \
 model_path=$model_path
 ```
 
