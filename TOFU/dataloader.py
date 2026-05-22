@@ -180,7 +180,7 @@ class CustomTrainerForgetting(Trainer):
             )
             retain_input_ids, retain_labels, retain_attention_mask = retain_inputs
             retain_outputs = model(retain_input_ids,labels=retain_labels, attention_mask=retain_attention_mask)
-            retain_loss = retain_outputs.loss * self.lcoef
+            retain_loss = retain_outputs.loss
             loss = forget_loss + self.lcoef * retain_loss
         
         elif self.loss_type == "KL":
